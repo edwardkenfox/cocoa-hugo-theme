@@ -610,16 +610,14 @@ section.main .content .markdown code {
   border-radius: 2px;
 }
 section.main .content .markdown pre {
-  /* Hugo specific: consider using the 'highlight' shortcode */
   display: block;
   margin-top: 1rem;
   margin-bottom: 2rem;
   padding: 1rem;
   line-height: 1.5em;
   white-space: pre;
-  white-space: pre-wrap;
-  word-break: break-all;
-  word-wrap: break-word;
+  overflow-x: auto;
+  border-radius: 4px;
 }
 section.main .content .markdown pre code {
   /* enclosed by 3 backticks (```) */
